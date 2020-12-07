@@ -1,0 +1,6 @@
+--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork 
+-I D:\Keil\ARM\RV31\INC
+-I D:\Keil\ARM\CMSIS\Include
+-I D:\Keil\ARM\Inc\Luminary
+
+--list .\startup.lst --xref -o .\startup.o --depend .\startup.d "startup.s"
